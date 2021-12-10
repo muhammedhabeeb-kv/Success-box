@@ -91,8 +91,8 @@ function success_close_btn(){
 
 #### CyberKing.Development!
 
-    ```ruby
-      puts "</ᴄʀᴋ>"
+    ```javascript
+       console.log("</ᴄʀᴋ>")
     ```
 
 </p>
