@@ -89,10 +89,10 @@ function success_close_btn(){
 <details><summary>Credits</summary>
 <p>
 
-#### CyberKing.Development!
+#### </ᴄʀᴋ>
 
     ```javascript
-       console.log("</ᴄʀᴋ>")
+       console.log("CyberKing.Development")
     ```
 
 </p>
