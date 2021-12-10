@@ -92,7 +92,7 @@ function success_close_btn(){
 #### </ᴄʀᴋ>
 
 
-       console.log("CyberKing.Development")
+       CyberKing.Development
     
 
 </p>
