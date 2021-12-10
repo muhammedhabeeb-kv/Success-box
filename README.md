@@ -91,9 +91,9 @@ function success_close_btn(){
 
 #### </ᴄʀᴋ>
 
-    ```javascript
+
        console.log("CyberKing.Development")
-    ```
+    
 
 </p>
 </details>
