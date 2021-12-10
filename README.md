@@ -85,3 +85,17 @@ function success_close_btn(){
 ```
 
 
+
+<details><summary>Credits</summary>
+<p>
+
+#### CyberKing.Development!
+
+    ```ruby
+      puts "</ᴄʀᴋ>"
+    ```
+
+</p>
+</details>
+
+
