@@ -1,5 +1,14 @@
 ﻿# Success-box v1.0
  
+ 
+ **Download and Installation**
+ ```
+  git clone https://github.com/CrkDevelopment/Success-box.git
+ ```
+ 
+ 
+> Html code
+
 ```html
 
 <!DOCTYPE html>
@@ -23,3 +32,56 @@
 </body>
 </html>
 ```
+
+> css
+
+```css
+  #success-box {
+    position: fixed;
+    width: 350px;
+    top: 12px;
+    left: 20px;
+    margin-left: 20px;
+  }
+  
+  .success-box-header {
+    border-radius: 5px 3px 10px 3px;
+    padding: 10px;
+    background: #09202b;
+    font-size: 30px;
+    color: #15bb62;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: solid 2px #18d26e;
+  }
+
+  .success-box-closebtn{
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+  }
+  
+  .success-box-closebtn:hover {
+    color: lightgrey;
+  }   
+```
+
+> Javascript
+
+```javascript
+function success_close_btn(){
+    var close_btn=document.getElementById('success-box');
+    close_btn.style.display='none'
+    setTimeout(()=>{
+        close_btn.style.display=''
+    },2000)
+}
+```
+
+
